@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=
+            "width=device-width, initial-scale=1.0">
+        <title>PLASTIC COLLECION BANK</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="chart.js"></script>
+
+        
+    </head>
+        
+        <body>
+            <!--Header(start)-->
+            <table id="header" border="0" width="100%"
+                cellpadding="0" cellspacing="0" >
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="15"
+                            cellspacing="0" width="90%" align="center">
+                            <tr>
+        
+                                <td>
+                                    <font face="Comic sans MS" size="6" color="green">
+                                        <b>Plastic collection Bank</b>
+                                    </font>
+                                </td>
+        
+                                <td width="20%">
+                                    
+                                </td>
+        
+                                <td>
+                                    <a href="#home" style="text-decoration:none">
+                                        <font face="Verdana" size="5" color="#800080">
+                                            Home
+                                        </font>
+                                    </a>
+                                </td>
+        
+                                <td>
+                                    |
+                                </td>
+        
+                                <td>
+                                    <a href="#about" style="text-decoration:none">
+                                        <font face="Verdana" size="5" color="#800080">
+                                            About
+                                        </font>
+                                    </a>
+                                </td>
+        
+                                <td>
+                                    |
+                                </td>
+        
+                                <td>
+                                    <a href="#projects" style="text-decoration:none">
+                                        <font face="Verdana" size="5" color="#800080">
+                                            Info
+                                        </font>
+                                    </a>
+                                </td>
+        
+                                <td>
+                                    |
+                                </td>
+        
+                                <td>
+                                    <a href="#achievements" style="text-decoration:none">
+                                        <font face="Verdana" size="5" color="#800080">
+                                            Partners
+                                        </font>
+                                    </a>
+                                </td>
+        
+                                <td>
+                                    |
+                                </td>
+        
+                                <td>
+                                    <a href="#contact" style="text-decoration:none">
+                                        <font face="Verdana" size="5" color="#800080">
+                                            Rewards
+                                        </font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--Header(end)-->
+        
+            <!--Home(start)-->
+            <table id="home" border="0" width="100%"
+            cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                        <br><br><br>
+                        <br><br>
+                        <br><br><br>
+                        <br><br><br>
+                        <br>
+                        <br><br>
+                        <br><br><br>
+                        <br><br>
+     
+     
+            <!--Home(end)-->
+        </td>
+    </tr>
+</table> 
+        
+            <!--About(start)-->
+           
+            <table id="about" border="0" width="100%"
+                cellpadding="0" cellspacing="0" bgcolor="#77b5fe ">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="15"
+                            cellspacing="0" width="80%" align="center">
+                            <tr>
+                                <td height="180" align="center"
+                                    valign="middle" colspan="2">
+                                    
+                                    <font face="Verdana" size="7"
+                                        color="#0000ff">
+                                        About
+                                    </font>
+                            
+                                    <font face="arial"size="5"
+                                        color="black">
+                                        <br><br>
+                                        <p>Our project aim is to promote sustainable waste management by incentivizing the collection of plastic waste and identifying its type. By using an IR sensor and an Arduino board, our system can detect the type of plastic, and the collected data will be stored in a database. Through this initiative, we aim to reduce the amount of plastic waste in the environment and encourage individuals to be more environmentally conscious.<br> The collected data can also be used to further research and develop better waste management practices.</p>
+                                 </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                  
+                </tr>
+            </table>
+            <!--About(end)-->
+   
+        <table id="Bin-info" border="0" width="100%"
+            cellpadding="0" cellspacing="0" >
+            <tr>
+                <td>
+                    <br><br><br><br><br>
+                    <br><br>
+                   
+                </td>
+            </tr>
+        </table>
+                
+            <!--Projects(start)-->
+            <table id="projects" border="0" width="100%"
+                cellpadding="5" cellspacing="0" >
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="5"
+                            cellspacing="0" width="80%" align="center">
+                   
+                            <tr>
+                                <td height="180" align="center"
+                                    valign="middle" colspan="2">
+                                    <font face="Verdana" size="7"
+                                        color="#800080">
+                                        Bin Information
+                                    </font>
+                                   
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <table border="collapse" cellpadding="15"
+                cellspacing="0" width="80%" align="center" id="myTable" >
+                    <tr>
+                        <th><font face="Verdana" size="5"
+                            color="#033E3E">
+                          Bin No
+                          </font>  
+                        </th>
+                        <th><font face="Verdana" size="5"
+                            color="#033E3E">
+                            Recyclable plastics
+                            </font>
+                        </th>
+                         <th><font face="Verdana" size="5"
+                            color="#033E3E">
+                            Non-Recyclable plastics
+                            </font>
+                        </th>
+                        <th><font face="Verdana" size="5"
+                            color="#033E3E">
+                            Non-plastics
+                            </font>
+                        </th>
+                        <th><font face="Verdana" size="5"
+                            color="#033E3E">
+                            Total
+                            </font>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle" class="time">
+                        <font face="arial"size="4"
+                                        color="black">
+                        1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.5
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-plastic">
+                        <font face="arial"size="4"
+                                        color="black">0.1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="total">
+                        <font face="arial"size="4"
+                                        color="black">0.8
+                        </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle" class="time">
+                        <font face="arial"size="4"
+                                        color="black">
+                        2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.5
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-plastic">
+                        <font face="arial"size="4"
+                                        color="black">0.1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="total">
+                        <font face="arial"size="4"
+                                        color="black">0.8
+                        </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle" class="time">
+                        <font face="arial"size="4"
+                                        color="black">
+                        3
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.5
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-plastic">
+                        <font face="arial"size="4"
+                                        color="black">0.1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="total">
+                        <font face="arial"size="4"
+                                        color="black">0.8
+                        </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle" class="time">
+                        <font face="arial"size="4"
+                                        color="black">
+                        4
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.5
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-plastic">
+                        <font face="arial"size="4"
+                                        color="black">0.1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="total">
+                        <font face="arial"size="4"
+                                        color="black">0.8
+                        </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle" class="time">
+                        <font face="arial"size="4"
+                                        color="black">
+                        5
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.5
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-recycle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="non-plastic">
+                        <font face="arial"size="4"
+                                        color="black">0.1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle" class="total">
+                        <font face="arial"size="4"
+                                        color="black">0.8
+                        </font>
+                        </td>
+                    </tr>
+             
+                    <!-- <tr>
+                        <td height="20" align="center"
+                        valign="middle"><font face="arial"size="4"
+                        color="black">
+                        11.00
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.6
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.3
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">1.0
+                        </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">
+                        12.00
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.8
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle"><font face="arial"size="4"
+                        color="black">0.3
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">1.3
+                        </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">
+                        13.00
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">1.0
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.3
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">1.5
+                        </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" align="center"
+                        valign="middle"><font face="arial"size="4"
+                        color="black">
+                        14.00
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">1.1
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.3
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">0.2
+                        </font>
+                        </td>
+                        <td height="20" align="center"
+                        valign="middle">
+                        <font face="arial"size="4"
+                                        color="black">1.6
+                        </font>
+                        </td>
+                    </tr> -->
+                </table>
+         
+            <tr>
+                <br><br><br><br>
+            <div align="center">
+                <tr>
+                
+                    
+                  <img src="Bin Level.png" style="height: 400px; width: 500px; position: relative;" alt="Bin-info">
+                  
+                    <br><br><br>
+                    <div>
+                    <img src="Recyclable Plastics.png" style="height: 400px; width: 500px; position: relative;" alt="Wastes-info">
+                    </div>
+                </tr> 
+            </div>
+            <br><br><br><br>
+            </tr>
+            </tr>
+            </table>
+            <!--Projects(end)-->
+        
+            <!--Achievement(start)-->
+            <table id="achievements" border="0" width="100%"
+                cellpadding="0" cellspacing="0" >
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="15"
+                            cellspacing="0" width="80%" align="center">
+                            <tr>
+                                <!-- <td><img src="https://www.chicagorealtor.com/wp-content/uploads/2018/12/Industry-Partners.png" height="200" width="200"></td> -->
+                                <td height="180" align="center" valign="middle">
+                                    <font face="Verdana" size="7" color="#800080">
+                                        Our partners
+                                    
+                                    </font>
+                                </td>
+                            </tr>
+        
+                            <tr>
+                                <td>
+                                    <font face="Verdana" size="4" color="white">
+                                                    
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <tr>
+                        <table border="0" cellpadding="15"
+                        cellspacing="0" width="80%" align="center">
+                            <tr>
+                                <th><font face="Verdana" size="5"
+                                    color="#033E3E">
+                                  Industry Name
+                                  </font>
+                                </th>
+                                <th><font face="Verdana" size="5"
+                                    color="#033E3E">
+                                    Type of waste
+                                    </font>
+                                </th>
+                                 <th><font face="Verdana" size="5"
+                                    color="#033E3E">
+                                    Location
+                                    </font>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Sanjay plastics
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Plastic water bottles etc.
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Cholavaram, chennai
+                                </font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Vilogreen India pvt ltd.
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Plastic recycling from electrical wastes
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                kolathur chennai
+                                </font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Bharat Polymers
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                polymers
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Nungambakam,chennai
+                                </font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                Rigid Recycle Resource
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">LDPE and HDPE recycling
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">Venkatapuram,chennai
+                                </font>
+                                </td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20" align="center"
+                                valign="middle"><font face="arial"size="4"
+                                color="black">
+                                Sri Karumariamman Plastic
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                PVC,ABS,PPS,HIPPS plastics
+                                </font>
+                                </td>
+                                <td height="20" align="center"
+                                valign="middle">
+                                <font face="arial"size="4"
+                                        color="black">
+                                chennai
+                                </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </tr>
+                </tr>
+            </table>
+            <!--Achievement(end)-->
+        
+        
+            <!--Contact(start)-->
+            <table id="contact" border="0" width="100%"
+                cellpadding="0" cellspacing="0" >
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="15"
+                            cellspacing="0" width="80%" align="center">
+                            <tr>
+                                <td height="180" align="center"
+                                    valign="middle" colspan="2">
+                                    <font face="Verdana" size="7"
+                                        color="#800080">
+                                        Rewards
+                                    </font>
+                                
+                                </td>
+                            </tr>
+        
+                            <tr>
+                                <td><img src="https://www.socialmediaexaminer.com/wp-content/uploads/2016/07/ldj-reward-shutterstock-234009130.png" height="500" width="500"></img></td>
+
+                                <td align="center" valign="top">
+                                    <table border="0" width="60%" cellpadding="25"
+                                        cellspacing="0" align="center" bgcolor="#4169e1">
+                                        <tr>
+                                            <td width="30%">
+                                                
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    Name
+                                                </font>
+                                            </td>
+                                            <td width="70%">
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    <input type="text" size="40" id="Name">
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="30%">
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    Email
+                                                </font>
+                                            </td>
+                                            <td width="70%">
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    <input type="email" size="40" id="Email">
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="30%">
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    Number
+                                                </font>
+                                            </td>
+                                            <td width="70%">
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    <input type="number" size="12" id="Number">
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="30%">
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    Feedback
+                                                </font>
+                                            </td>
+                                            <td width="70%">
+                                                <font face="Verdana" size="4"
+                                                    color="#ffffff">
+                                                    <textarea rows="5"
+                                                        cols="37" id="Feedback">
+                                                    </textarea>
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="30%">
+                                                
+                                            </td>
+                                            <td width="70%">
+                                                <button type="button" onclick="sendData()">
+                                                    <font face="Verdana" size="4" color="black">
+                                                      <b>Submit</b>
+                                                    </font>
+                                                  </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+        
+                            </tr>
+                            <tr>
+                                <br>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--Contact(end)-->
+       
+          
+        
+            <!--Footer1(start)-->
+            <table id="footer" border="0" width="100%"
+                cellpadding="0" cellspacing="0" bgcolor="#EBF4FA">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="15"
+                            cellspacing="0" width="90%" align="center">
+                            <tr>
+                                <td width="13%" valign="top">
+                                    <b>Linkedin</b>
+                                    <a href="#" style="text-decoration:none">
+                                        ➲
+                                    </a>
+                                </td>
+        
+                                <td>
+                                    |
+                               </td>
+        
+                                <td width="13%" valign="top">
+                                    <b>Instagram</b>
+                                    <a href="#" style="text-decoration:none">
+                                        ➲
+                                    </a>
+                                </td>
+        
+                                <td>
+                                    |
+                                </td>
+        
+                                <td width="13%" valign="top">
+                                    <b>Email</b>
+                                    <a href="#" style="text-decoration:none">
+                                        ➲
+                                    </a>
+                                </td>
+        
+                                <td>
+                                    |
+                                </td>
+        
+                                <td width="13%" valign="top">
+                                    <b>Website</b>
+                                    <a href="#" style="text-decoration:none">
+                                        ➲
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--Footer1(end)-->
+        
+        
+            <!--Footer2(start)-->
+            <table id="footer" border="0" width="100%"
+                cellpadding="0" cellspacing="0" bgcolor="black">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="15" bgcolor="#4169e1"
+                            cellspacing="0" width="100%" align="center">
+                            <tr>
+                                <td width="80%" valign="top">
+                                    <font face="Verdana"
+                                        color="white" size="5">
+                                        Reduce Reuse Recycle!!!
+                                    </font>
+                                </td>
+        
+                                <td width="10%">
+                                    <font face="arial" color="black" size="5">
+                                        <a href="#header" style="text-decoration:none">
+                                            <font face="Verdana" color="white" size="6">
+                                                <b>TOP</b>
+                                            </font>
+                                        </a>
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--Footer2(end)-->
+        
+        </body>
+        <script>
+            // Get the table element
+            var table = document.getElementById("myTable");
+          
+            // Get all the table cells except the header row
+            var time = table.getElementsByClassName("time");
+            var recycle = table.getElementsByClassName("recycle");
+            var non_recycle = table.getElementsByClassName("non-recycle");
+            var non_plastic = table.getElementsByClassName("non-plastic");
+            var total = table.getElementsByClassName("total");
+
+            function calcualte(n){
+            var randomDecimal = Math.random();
+
+            // Scale the random decimal number to the desired range
+            // Multiply it by (n - 1) and add 1 to get a number between 1 and n
+            var i = Math.floor(randomDecimal * (n-1)) + 1;
+            console.log(i);
+
+            // Iterate over the cells and change the values randomly
+                let total_vale;
+              var randomNumber = Math.random(); // Generate a random number between 0 and 1
+              var randomNumber_2 = Math.random(); // Generate a random number between 0 and 1
+              var randomNumber_3 = Math.random(); // Generate a random number between 0 and 1
+              var newValue_1 = randomNumber.toFixed(2); // Limit the decimal places to 2
+              var newValue_2 = randomNumber_2.toFixed(2); // Limit the decimal places to 2
+              var newValue_3 = randomNumber_3.toFixed(2); // Limit the decimal places to 2
+              total_vale = parseFloat(newValue_1) + parseFloat(newValue_2) + parseFloat(newValue_3);
+
+              
+              recycle[i].innerHTML = '<strong><font face="arial"size="4" color="black">'+newValue_1 +'</font></strong>'; // Set the new value to the cell
+              non_recycle[i].innerHTML = '<strong><font face="arial"size="4" color="black">'+newValue_2 +'  </font></strong>'; // Set the new value to the cell
+              non_plastic[i].innerHTML = '<strong><font face="arial"size="4" color="black">'+newValue_3 +'</font></strong>'; // Set the new value to the cell
+              total[i].innerHTML = '<strong><font face="arial"size="4" color="black">'+total_vale.toFixed(2) +'</font></strong>'; // Set the new value to the cell
+            for (var j = 0; j < n ; j++){
+                if (i!= j){
+
+                    recycle[j].innerHTML = recycle[j].innerHTML.replace("<strong>", ""); // Set the new value to the cell
+                    non_recycle[j].innerHTML = non_recycle[j].innerHTML.replace("<strong>", ""); // Set the new value to the cell
+                    non_plastic[j].innerHTML = non_plastic[j].innerHTML.replace("<strong>", ""); // Set the new value to the cell
+                    total[j].innerHTML = total[j].innerHTML.replace("<strong>", ""); // Set the new value to the cell
+            
+                }
+            }
+            }
+
+            setInterval(function() {
+            calcualte(time.length);
+            }, 1500);
+            function sendData() {
+  // Retrieve the values from the form fields
+  var name = document.getElementById("Name").value;
+  var email = document.getElementById("Email").value;
+  var number = document.getElementById("Number").value;
+  var feedback = document.getElementById("Feedback").value;
+
+  // Display the data in the console
+  console.log("Name:", name);
+  console.log("Email:", email);
+  console.log("Number:", number);
+  console.log("Feedback:", feedback);
+  alert("Dear " + name + ",\nThanks for your contribution.\n\nYour reword will be processed soon.");
+
+  // Clear the form fields
+  document.getElementById("Name").value = "";
+  document.getElementById("Email").value = "";
+  document.getElementById("Number").value = "";
+  document.getElementById("Feedback").value = "";
+}
+
+            
+          </script>
+</html>
